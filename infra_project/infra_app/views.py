@@ -6,4 +6,5 @@ def index(request):
 
 
 def second_page(request):
-    return HttpResponse('А это вторая страница! Теперь "боевой сервер"! ')
+    return HttpResponse('А это вторая страница! Теперь отправка сообщения '
+                        'в телеграмм! ')
