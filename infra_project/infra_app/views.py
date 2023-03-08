@@ -6,4 +6,4 @@ def index(request):
 
 
 def second_page(request):
-    return HttpResponse('А это вторая страница! Ух уж этот Docker!')
+    return HttpResponse('А это вторая страница! Теперь "боевой сервер"! ')
